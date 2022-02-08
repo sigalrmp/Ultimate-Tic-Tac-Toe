@@ -1,2 +1,0 @@
-(** @canonical Multi_uttt_test.Testing *)
-module Testing = Multi_uttt_test__Testing
