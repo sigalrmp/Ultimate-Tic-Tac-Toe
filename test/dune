@@ -1,0 +1,6 @@
+(library
+ (name multi_uttt_test)
+ (libraries multi_uttt)
+ (preprocess
+  (pps ppx_jane))
+ (inline_tests))

@@ -1,0 +1,6 @@
+(library
+ (name multi_uttt)
+ (libraries core_kernel async core notty_async)
+ (preprocess
+  (pps ppx_jane))
+ (inline_tests))

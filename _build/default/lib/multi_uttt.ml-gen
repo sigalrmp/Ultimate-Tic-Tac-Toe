@@ -1,0 +1,66 @@
+(** @canonical Multi_uttt.Action *)
+module Action = Multi_uttt__Action
+
+
+(** @canonical Multi_uttt.Ai *)
+module Ai = Multi_uttt__Ai
+
+
+(** @canonical Multi_uttt.Ai_game *)
+module Ai_game = Multi_uttt__Ai_game
+
+
+(** @canonical Multi_uttt.Board *)
+module Board = Multi_uttt__Board
+
+
+(** @canonical Multi_uttt.Client *)
+module Client = Multi_uttt__Client
+
+
+(** @canonical Multi_uttt.Connection *)
+module Connection = Multi_uttt__Connection
+
+
+(** @canonical Multi_uttt.Constants *)
+module Constants = Multi_uttt__Constants
+
+
+(** @canonical Multi_uttt.Cursor_pos *)
+module Cursor_pos = Multi_uttt__Cursor_pos
+
+
+(** @canonical Multi_uttt.Model *)
+module Model = Multi_uttt__Model
+
+
+(** @canonical Multi_uttt.Opt *)
+module Opt = Multi_uttt__Opt
+
+
+(** @canonical Multi_uttt.Player *)
+module Player = Multi_uttt__Player
+
+
+(** @canonical Multi_uttt.Position *)
+module Position = Multi_uttt__Position
+
+
+(** @canonical Multi_uttt.Protocol *)
+module Protocol = Multi_uttt__Protocol
+
+
+(** @canonical Multi_uttt.Scoring *)
+module Scoring = Multi_uttt__Scoring
+
+
+(** @canonical Multi_uttt.Server *)
+module Server = Multi_uttt__Server
+
+
+(** @canonical Multi_uttt.Ultimate_position *)
+module Ultimate_position = Multi_uttt__Ultimate_position
+
+
+(** @canonical Multi_uttt.User *)
+module User = Multi_uttt__User
