@@ -1,4 +1,5 @@
 (executable
  (name main)
+ (public_name uttt)
  (preprocess (pps ppx_jane))
  (libraries multi_uttt))

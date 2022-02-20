@@ -1,1 +1,14 @@
-(lang dune 2.7)
+(lang dune 3.0)
+(generate_opam_files true)
+(name uttt)
+
+(package
+ (name uttt)
+ (synopsis "Ultimate Tic-Tac-Toe player")
+ (description "Ultimate Tic-Tac-Toe, with an AI and a multiplayer mode")
+ (depends
+  (ocaml (>= 4.13.1))
+  (core (>= 0.14.0))
+  (ppx_jane (>= 0.14.0))
+  (notty_async (>= 0.14.0))
+  ))
