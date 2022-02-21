@@ -31,6 +31,8 @@ apt install opam
 
 ### Building and installing uttt
 
+(all of the following should be in the OCaml directory)
+
 You should be able to install all of the dependencies and build and
 install the application as follows.
 
