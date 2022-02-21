@@ -10,7 +10,7 @@ In the other directory is my final project, written in OCaml. This
 code is much nicer (although it too is for from perfect). The majority
 of the source code is located in the bin directory.
 
-## Installation
+## Installation (for linux)
 
 ### Opam
 
