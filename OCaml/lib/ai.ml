@@ -59,8 +59,9 @@ let unforced_outer is_valid =
 let gen_all_moves board (last_move : Ultimate_position.t option) =
   let is_valid move =
     match Board.space board move with
-    | None -> true
-    | Some _ -> false
+    | None -> not (Board.miniboard_is_finished board
+                    (Ultimate_position.board move))
+    | Some _ -> false 
   in
   match last_move with
   | None -> unforced_outer is_valid
